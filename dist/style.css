@@ -25,6 +25,7 @@ body.noscroll {
 
 h1, h2, h3 {
   margin: 0;
+  padding: 0;
 }
 
 a, a:visited, a:hover {
@@ -74,24 +75,93 @@ a, a:visited, a:hover {
 .card {
   background: #14253d;
   border-radius: 3%;
+  padding: 1.625rem;
 }
 
 .card img {
   width: 16.875rem;
   height: 17.3125rem;
-  margin: 0 auto;
-  -webkit-transform: translateY(10%);
-          transform: translateY(10%);
   border-radius: 3%;
+  margin-bottom: 1.56rem;
 }
 
 .card h2 {
   font-size: 1.4375rem;
   color: white;
+  margin-bottom: 1.3125rem;
 }
 
 .card p {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.3;
   color: #8bacda;
+}
+
+.card .num-data {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card .num-data h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #00fff7;
+  margin-right: 6.0625rem;
+}
+
+.card .num-data h3 svg {
+  width: 0.875rem;
+  height: 1.25rem;
+  margin-right: 0.4375rem;
+}
+
+.card .num-data .num {
+  color: #8bacda;
+  margin-right: 0;
+}
+
+.card .num-data .num svg {
+  width: 0.875rem;
+  height: 1.25rem;
+  margin-bottom: 0;
+  margin-right: 0.5625rem;
+}
+
+.card .line {
+  position: relative;
+  bottom: 0;
+  margin-top: 1.5625rem;
+  width: 17.56725rem;
+  height: 0.0625rem;
+  background: white;
+}
+
+.card .avatar-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.8125rem;
+  margin-top: 0.9375rem;
+}
+
+.card .avatar-section img {
+  width: 2.1875rem;
+  height: 2.0625rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 0.9375rem;
+}
+
+.card .avatar-section p {
+  font-size: 0.75rem;
+}
+
+.card .avatar-section p span {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

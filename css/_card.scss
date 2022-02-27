@@ -2,22 +2,86 @@
 .card{
     background: $VeryDarkBlueCard;
     border-radius: 3%;
+    padding: 1.625rem;
 
     img{
         width: 16.875rem;
         height: 17.3125rem;
-        margin: 0 auto;
-        transform: translateY(10%);
         border-radius: 3%;
+        margin-bottom: 1.56rem;
     }
 
     h2{
         font-size: 1.4375rem;
         color: $white;
+        margin-bottom: 1.3125rem;
     }
 
     p{
-        font-size: 1.25rem;
+        font-size: 1rem;
+        line-height:1.3;
         color:$SoftBlue;
     }
+
+    .num-data{
+        flex-direction: row;
+        h3{
+            
+            display: flex;
+            font-size: 0.8125rem;
+            font-weight: $flarge;
+            color: $Cyan;
+            margin-right: 6.0625rem;
+
+            svg{
+                width:0.875rem;
+                height: 1.25rem;
+                margin-right: 0.4375rem;
+            }
+        }
+        .num{
+            color: $SoftBlue;
+            margin-right: 0;
+            
+            svg{
+                width:0.875rem;
+                height: 1.25rem;
+                margin-bottom: 0;
+                margin-right: 0.5625rem;
+            }
+        }
+    }
+    .line{
+        position: relative;
+        bottom: 0;
+        margin-top: 1.5625rem;
+        width: 17.56725rem;
+        height: 0.0625rem;
+        background: $white;
+
+    }
+
+    .avatar-section{
+        display: flex;
+        margin-bottom: 1.8125rem;
+        margin-top: 0.9375rem;
+        
+        img{
+            width:2.1875rem;
+            height: 2.0625rem;
+            border: 2px solid $white;
+            border-radius: 50%;
+            margin-right: 0.9375rem;
+        }
+
+        p{
+            font-size: 0.75rem;
+
+            span{
+                color: $white;
+            }
+        }
+    }
+
+
 }
