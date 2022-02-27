@@ -1,0 +1,23 @@
+
+.card{
+    background: $VeryDarkBlueCard;
+    border-radius: 3%;
+
+    img{
+        width: 16.875rem;
+        height: 17.3125rem;
+        margin: 0 auto;
+        transform: translateY(10%);
+        border-radius: 3%;
+    }
+
+    h2{
+        font-size: 1.4375rem;
+        color: $white;
+    }
+
+    p{
+        font-size: 1.25rem;
+        color:$SoftBlue;
+    }
+}
